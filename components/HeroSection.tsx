@@ -44,7 +44,7 @@ export const HeroSection: React.FC = () => {
         </div>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-20">
+        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
           <Button 
             size="lg" 
             className="bg-gradient-to-r from-teal-500 to-cyan-600 hover:from-teal-600 hover:to-cyan-700 text-white border-0 px-10 py-5 text-xl shadow-2xl shadow-teal-500/25 hover:shadow-teal-500/40 transition-all duration-300 rounded-2xl"
@@ -61,22 +61,6 @@ export const HeroSection: React.FC = () => {
             Learn More
             <ArrowRight className="ml-3" size={20} />
           </Button>
-        </div>
-
-        {/* Minimal Stats */}
-        <div className="grid grid-cols-3 gap-12 max-w-2xl mx-auto">
-          <div className="text-center">
-            <div className="text-4xl font-bold text-teal-300 mb-2">50K+</div>
-            <div className="text-gray-400 text-sm">Users</div>
-          </div>
-          <div className="text-center">
-            <div className="text-4xl font-bold text-cyan-300 mb-2">$2.5M</div>
-            <div className="text-gray-400 text-sm">Volume</div>
-          </div>
-          <div className="text-center">
-            <div className="text-4xl font-bold text-purple-300 mb-2">99.9%</div>
-            <div className="text-gray-400 text-sm">Uptime</div>
-          </div>
         </div>
       </div>
 

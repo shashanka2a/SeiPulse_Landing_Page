@@ -17,7 +17,7 @@ export const FinalCTASection: React.FC = () => {
         </h2>
         
         <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto">
-          Join thousands using the fastest crypto payments on Sei blockchain
+          Experience the future of crypto payments on Sei blockchain
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
