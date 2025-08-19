@@ -6,9 +6,6 @@ const nextConfig = {
   distDir: 'dist',
   images: {
     unoptimized: true
-  },
-  experimental: {
-    optimizeCss: true
   }
 }
 
