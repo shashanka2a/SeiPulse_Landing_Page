@@ -46,15 +46,18 @@ export const HeroSection: React.FC = () => {
             size="lg" 
             className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white border-0 px-12 py-6 text-xl shadow-2xl shadow-blue-500/30 hover:shadow-blue-500/50 hover:shadow-2xl hover:scale-105 transition-all duration-300 rounded-full animate-pulse hover:animate-none"
           >
-            <Download className="mr-3" size={24} />
-            Download SeiPulse
-          </Button>
-          
           <Button 
+            asChild
             size="lg" 
             variant="outline"
             className="border-2 border-purple-300 text-purple-700 hover:bg-purple-100 hover:border-purple-400 hover:scale-105 px-10 py-5 text-xl transition-all duration-300 rounded-full"
           >
+            <a href="https://pay.seipulse.app" target="_blank" rel="noopener noreferrer">
+              <Download className="mr-3" size={24} />
+              Try Now
+            </a>
+          </Button>
+
             Learn More
             <ArrowRight className="ml-3" size={20} />
           </Button>
