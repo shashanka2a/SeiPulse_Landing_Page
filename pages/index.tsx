@@ -4,6 +4,7 @@ import { PaymentsSection } from '../components/PaymentsSection'
 import { WatcherSection } from '../components/WatcherSection'
 import { FinalCTASection } from '../components/FinalCTASection'
 import { Footer } from '../components/Footer'
+import { StickyCTA } from '../components/StickyCTA'
 import { ThemeProvider } from '../contexts/ThemeContext'
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
           <WatcherSection />
           <FinalCTASection />
           <Footer />
+          <StickyCTA />
         </div>
       </ThemeProvider>
     </>
