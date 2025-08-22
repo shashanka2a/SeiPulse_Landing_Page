@@ -1,5 +1,5 @@
 import React from 'react';
-import { Download, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { Button } from './ui/button';
 
 export const FinalCTASection: React.FC = () => {
@@ -28,12 +28,15 @@ export const FinalCTASection: React.FC = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
+          {/* 🔹 Try Now button with external link */}
           <Button 
+            asChild
             size="lg" 
             className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/50 text-white border-0 px-12 py-6 text-xl shadow-2xl shadow-blue-500/30 transition-all duration-300 rounded-full animate-pulse hover:animate-none"
           >
-            <Download className="mr-3" size={28} />
-            Download SeiPulse
+            <a href="https://pay.seipulse.app" target="_blank" rel="noopener noreferrer">
+              🚀 Try Now
+            </a>
           </Button>
           
           <Button 
